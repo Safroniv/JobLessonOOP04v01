@@ -10,6 +10,7 @@ namespace JobLessonOOP04v01Part01
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
