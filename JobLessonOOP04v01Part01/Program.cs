@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace JobLessonOOP04v01Part01
 {
@@ -25,7 +26,6 @@ namespace JobLessonOOP04v01Part01
             newBuilding2.PrintInfo();
 
             Console.ReadLine();
-
         }
     }
 }

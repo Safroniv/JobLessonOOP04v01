@@ -60,6 +60,20 @@ namespace JobLessonOOP04v01Part01
             summApartamentsFloor = SummApartamentsEntrance() / GetFloorsBuilding();
             return summApartamentsFloor;
         }
+
+        public void ConstructorNewBuild (double heightBuilding, int numberOfApartamentsBuilding)
+        {
+            _buildingNumber = GetBuildingNumber();
+            _heightBuilding = heightBuilding;
+            _numberOfApartamentsBuilding = numberOfApartamentsBuilding;
+        }
+
+        public void ConstructorNewBuild (int floorsBuilding, int summApartamentsFloor)
+        {
+            _buildingNumber = GetBuildingNumber();
+            _floorsBuilding = floorsBuilding;
+            _numberOfEntrancesBuilding = summApartamentsFloor; 
+        }
         public void PrintInfo()
         {
             //Вывод на печать информации о здании

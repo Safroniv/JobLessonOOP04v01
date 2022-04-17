@@ -1,13 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections;
 
 namespace JobLessonOOP04v01Part01
 {
-    class Creator
+    public class Creator
     {
 
+        static Hashtable FabricBulding = new Hashtable();
+        static int _buildingNumber;
+        static int _generator = 1;
+        static void CreateBuilding(int _buildingNumber)
+        {
+ 
+        }
+
     }
+
 }
