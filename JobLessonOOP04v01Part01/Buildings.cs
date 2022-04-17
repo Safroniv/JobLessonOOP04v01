@@ -10,24 +10,31 @@ namespace JobLessonOOP04v01Part01
         private int _floorsBuilding;//Количество подъездов в здании
         private int _numberOfApartamentsBuilding; // Количество квартир в здании
         private int _numberOfEntrancesBuilding; // Количество подъездов в здании
+
+
         private static int _generator = 1; // Уникальный номер здания
 
         //статичный методы для генерации уникального номера здания
         public static int GenerateNumberBuilding() { return _generator++; }
 
+
         //методы для заполнения полей и получения значений
         public int GetBuildingNumber() { return _buildingNumber; }
         public void SetBuildingNumber()
         { _buildingNumber = GenerateNumberBuilding(); }
+
         public double GetHeightBuilding() { return _heightBuilding; }
         public void SetHeightBuilding(double heightBuilding)
         { _heightBuilding = heightBuilding; }
+
         public int GetFloorsBuilding() { return _floorsBuilding; }
         public void SetFloorsBuilding(int floorsBuilding)
         { _floorsBuilding = floorsBuilding; }
+
         public int GetNumberOfApartamentsBuilding() { return _numberOfApartamentsBuilding; }
         public void SetNumberOfApartamentsBuilding(int numberOfApartamentsBuilding)
         { _numberOfApartamentsBuilding = numberOfApartamentsBuilding; }
+
         public int GetNumberOfEntrancesBuilding() { return _numberOfEntrancesBuilding; }
         public void SetNumberOfEntrancesBuilding(int numberOfEntrancesBuilding)
         { _numberOfEntrancesBuilding = numberOfEntrancesBuilding; }
